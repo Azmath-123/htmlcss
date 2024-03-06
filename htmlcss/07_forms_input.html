@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial=scale=1.0">
+        <title>FORMS & INPUTS</title>
+    </head>
+    <body>
+        <form action="process.php">
+            <div>
+                <label for="name2">NAME</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div>
+                <label for="email">EMAIL</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div>
+                <label for="message">MESSAGE</label>
+                <textarea name="message" id="message" cols="50"rows="5"></textarea>         
+               </div>
+        <label for="sex">SEX</label>
+        <select name="sex" id="sex">
+        <option value="male">MALE</option>
+        <option value="female">FEMALE</option>
+        </select>
+        <div>
+            <label for="age">AGE</label>
+            <input type="number" name="age" id="age">
+        </div>
+        <div>
+            <label for="birtdate">BIRTHDAY</label>
+            <input type="date" name="bday" id="bdate">
+        </div>
+        <div>
+            <label for="membership">MEMBERSHIP</label>
+            <input type="checkbox" name="membership" value="simple" id="membership">simple
+            <input type="checkbox" name="membership" value="premium" id="membership">premium
+        <input type="checkbox" name="membership" value="diamond" id="membership">diamond
+        </div>
+        <input type="submit" value="submit">
+        <!--using button tag-->
+        <button     type="reset">RESET </button>
+            </form>
+    </body>
+</html>
